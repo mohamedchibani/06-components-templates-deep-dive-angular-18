@@ -5,6 +5,9 @@
     'status-offline': currentStatus === 'offline',
     'status-unknown': currentStatus === 'unknown',
   }"
+  [style]="{
+    fontSize: '16px'
+  }"
 >
   @if (currentStatus === 'online') {
   <p>Servers are online</p>
